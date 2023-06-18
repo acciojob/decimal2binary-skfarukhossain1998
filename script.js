@@ -13,4 +13,5 @@ function decimalToBinary(n) {
   return binary;
 }
 
+/* console.log(decimalToBinary(4)); */
 module.exports = threeSum;
