@@ -1,17 +1,16 @@
-function threeSum(arr, target) {
- if (decimal === 0) {
+function decimalToBinary(n) {
+  if (n === 0) {
     return "0";
   }
 
   var binary = "";
-  while (decimal > 0) {
-    var remainder = decimal % 2;
+  while (n > 0) {
+    var remainder = n % 2;
     binary = remainder + binary;
-    decimal = Math.floor(decimal / 2);
+    n = Math.floor(n / 2);
   }
 
   return binary;
-  
 }
 
 module.exports = threeSum;
